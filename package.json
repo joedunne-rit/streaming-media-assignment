@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "\"Joe Dunne's streaming media fork\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joedunne-rit/streaming-media-assignment.git"
+  },
+  "author": "Joseph Dunne",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/joedunne-rit/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/joedunne-rit/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
